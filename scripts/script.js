@@ -110,6 +110,9 @@ function localTitle() {
     }
     if (hash === 'kids') {
         goodsTitle.textContent = 'Детям';
+    } 
+    if (hash === '') {
+        goodsTitle.textContent = 'Одежда для всех';
     }
 }
 
